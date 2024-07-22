@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Playwrite DE Grund", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 0.8976em;
+    font-weight: 900;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #000000;
+    transition: 0.7s;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(background\ \ work.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 1.4em;
+    font-weight: 999;
+}
+
+.main h2 {
+    color: #71ff4e;
+    font-weight: 600;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.8132em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: 0.8s ease;
+}
+
+.main-btn:hover {
+    background-color: #183891;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #ff0000;
+    font-size: 1.7em;
+    padding-right: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 16.25em;
+    box-shadow: 0px 5px 15px rgb(1 1 1 / 30%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.8s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #3a6cf4;
+    font-size: 5em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.Specialty {
+    background-color: #000016;
+}
+
+.Specialty .content {
+    margin-top: 15px;
+}
+
+.Specialty-card {
+    background-color: #fff;
+    border: 1px solid #fbff00;
+    min-height: 14em;
+    width: 17em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.8s ease;
+}
+
+.Specialty-card:hover {
+    transform: scale(1.1);
+}
+
+.Specialty-card:hover .Specialty-image {
+    opacity: 0.9;
+}
+
+.Specialty-image img {
+    width: 100%;
+}
+
+.Specialty-info {
+    padding: 1em;
+    text-align: center;
+}
+
+.Specialty-category {
+    font-size: 1em;
+}
+
+.Specialty-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+p #toll {
+    text-align: center;
+    margin: 2px;
+    padding: 20px;
+}
+
+#Call Us .icon {
+    font-size: 1.8em;
+}
+
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons {
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 8px 12px;
+    }
+
+    .navigation a {
+        padding-left: 15px;
+    }
+
+    .title {
+        font-size: 0.5em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main content h2 {
+        font-size: 0.7em;
+    }
+
+    .main content h3 {
+        font-size: 1.4em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-content span {
+        font-size: 0.8em;
+    }
+
+    .main-content h2 {
+        font-size: 1.4em;
+    }
+}
+
+
+@media (max-width=300px) {
+    body {
+        font-size: 10px;
+    }
+}
